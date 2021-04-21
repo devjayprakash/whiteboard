@@ -4,7 +4,7 @@ let test = document.getElementById("test");
 canvas.width = 0.98 * window.innerWidth;
 canvas.height = window.innerHeight;
 
-var io = io.connect("http://localhost:8080/");
+var io = io.connect("https://dopewhiteboard.herokuapp.com/");
 
 let ctx = canvas.getContext("2d");
 
